@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/live-quiz/static/css/main.0087de97.chunk.css",
+    "main.js": "/live-quiz/static/js/main.c3edcf8d.chunk.js",
+    "main.js.map": "/live-quiz/static/js/main.c3edcf8d.chunk.js.map",
+    "runtime-main.js": "/live-quiz/static/js/runtime-main.7bfa9b07.js",
+    "runtime-main.js.map": "/live-quiz/static/js/runtime-main.7bfa9b07.js.map",
+    "static/js/2.f86ad6ae.chunk.js": "/live-quiz/static/js/2.f86ad6ae.chunk.js",
+    "static/js/2.f86ad6ae.chunk.js.map": "/live-quiz/static/js/2.f86ad6ae.chunk.js.map",
+    "index.html": "/live-quiz/index.html",
+    "precache-manifest.2a77c52d928931bcf953c9d33370ccc8.js": "/live-quiz/precache-manifest.2a77c52d928931bcf953c9d33370ccc8.js",
+    "service-worker.js": "/live-quiz/service-worker.js",
+    "static/css/main.0087de97.chunk.css.map": "/live-quiz/static/css/main.0087de97.chunk.css.map",
+    "static/js/2.f86ad6ae.chunk.js.LICENSE.txt": "/live-quiz/static/js/2.f86ad6ae.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7bfa9b07.js",
+    "static/js/2.f86ad6ae.chunk.js",
+    "static/css/main.0087de97.chunk.css",
+    "static/js/main.c3edcf8d.chunk.js"
+  ]
+}
