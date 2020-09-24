@@ -1,0 +1,41 @@
+@import "../Room/Room.scss";
+
+.notification-div{
+    /* display: grid;
+    grid-template-columns: 3fr 1fr 1fr; */
+    display: flex;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 4vh;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    background-color: rgb(182, 236, 175);
+    box-shadow: 0px 2px 3px 1px rgba(0, 0, 0, 0.123);
+}
+
+.request-user-name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 2%;
+}
+
+.button-change {
+    margin: 0.5%;
+    width: 20%;
+    height: 75%;
+    font-size: 1rem;
+}
+
+.accept-request-button{
+    @extend .start-game-button;
+    @extend .button-change;
+}
+
+.reject-request-button{
+    @extend .quit-game-button;
+    @extend .button-change;
+}

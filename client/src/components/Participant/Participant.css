@@ -1,0 +1,12 @@
+.participant-div {
+    display: flex;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 1%;
+    font-size: 2rem;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(230, 247, 253);
+    box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.123);
+}

@@ -1,0 +1,64 @@
+.username-div {
+    top: 50%;
+    left: 50%;
+    width: 40%;
+    height: 25%;
+    border-radius: 2%;
+    display: grid;
+    grid-template-rows: 2fr 8fr;
+    position: absolute;
+    background-color: rgb(231, 247, 247);
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 0px 10px 0.01px rgba(0, 0, 0, 0.123);
+}
+
+.username-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    background-color: rgb(174, 228, 238);
+    box-shadow: 0px 0px 10px 0.01px rgba(0, 0, 0, 0.123);
+}
+
+.username-enter-div {
+    display: grid;
+    grid-template-rows: 3fr 2fr;
+    padding: 5%;
+}
+
+.username-input-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.username-input {
+    width: 75%;
+    height: 35%;
+    font-size: 1.1rem;
+}
+
+.username-button-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.username-button {
+    display: flex;
+    height: 60%;
+    width: 50%;
+    color: white;
+    font-size: 1.2rem;
+    border-radius: 2%;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(62, 128, 228);
+    box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.123);
+}
+
+.username-button:hover {
+    transform: scale(1.009);
+    cursor: pointer;
+}

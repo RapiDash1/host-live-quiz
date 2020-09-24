@@ -1,0 +1,155 @@
+.room {
+    background-color: rgb(245, 255, 255);
+    height: 100vh;
+    width: 100vw;
+}
+
+.room-components {
+    display: grid;
+    height: 100%;
+    grid-template-rows: 1.5fr 9fr;
+}
+
+.room-name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+.room-info {
+    display: grid;
+    border-radius: 0.5%;
+    margin: 5% 10% 10% 10%;
+    grid-template-columns: 1fr 0.01fr 1fr;
+    background-color: rgb(215, 245, 245);
+    box-shadow: 0px 0px 10px 0.01px rgba(0, 0, 0, 0.123);
+}
+
+.vertical-separator {
+    width: 50%;
+}
+
+.room-info-element {
+    display: grid;
+    grid-template-rows: 2fr 9fr;
+}
+
+.participants-name {
+    height: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2% 0 0 0;
+    font-size: 2rem;
+    background-color: rgb(174, 228, 238);
+    box-shadow: 0px 0px 10px 0.01px rgba(0, 0, 0, 0.123);
+}
+
+.participants {
+    height: 85%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    margin-top: 7.5%;
+    max-height: 50vh;
+}
+
+#game-settings {
+    display: grid;
+    grid-template-rows: 0.8fr 1.5fr 2fr;
+    padding-bottom: 1%;
+}
+
+.quiz-buttons-div {
+    display: flex;
+    // flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.start-game-button {
+    margin: 5%;
+    width: 75%;
+    height: 30%;
+    display: flex;
+    color: white;
+    font-size: 2rem;
+    border-width: 1%;
+    border-radius: 2%;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(62, 128, 228);
+    box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.123);
+}
+
+.start-game-button:hover {
+    transform: scale(1.009);
+    cursor: pointer;
+}
+
+.quit-game-button {
+    @extend .start-game-button;
+    background-color: rgb(228, 62, 62);
+}
+
+.sharable-room-id {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.share-code-content {
+    display: grid;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 2rem;
+}
+
+.copy-code-button-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.copy-code-button{
+    @extend .start-game-button;
+    height: 50%;
+}
+
+.room-id-text {
+    height: 200%;
+    border: none;
+    text-align: center;
+    background-color : rgba(174, 228, 238, 0.521); 
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.123);
+}
+
+.requests-div {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1%;
+    margin-right: 1%;
+    grid-template-rows: 1fr 6fr;
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.123);
+}
+
+.requests-name {
+    display: flex;
+    font-size: 1.25rem;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(174, 228, 238);
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.123);
+}
+
+.join-user-requests{
+    max-height: 30vh;
+    overflow-y: auto;
+}
+
+.not-owner-div {
+    padding: 0% 20% 0% 20%;
+}
